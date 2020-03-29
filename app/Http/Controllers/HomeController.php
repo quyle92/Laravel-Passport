@@ -30,7 +30,7 @@ class HomeController extends Controller
 
 
 
-    public function getout()
+    public function logout()
     {
         Auth::logout();
         return redirect()->route('welcome');
