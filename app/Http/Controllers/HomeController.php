@@ -33,6 +33,6 @@ class HomeController extends Controller
     public function getout()
     {
         Auth::logout();
-        return redirect()->route('welcome');
+        return redirect()->route('welcome');//GitUI: rename for testing merge conflict.
     }
 }
